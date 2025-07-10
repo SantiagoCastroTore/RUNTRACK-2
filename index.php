@@ -4,12 +4,15 @@
 
 <?php
 $str= " LaPlateforme";
-$str2= "HELLO"; 
+$str2= " Vive";
+$str3= "!";
+$val= "4";
 
-echo "strtoupper $str2 $str" ;
-<br> 
-strtoupper($str2 . $str);
+echo "Bienvenue  $str2  $str $str3" ;
+<br>
 
+$val +=4;
+echo   $val ;
 ?> 
 </body>
 </html>
